@@ -1,0 +1,17 @@
+/* AUTOMATICALLY GENERATED ON Wed Apr 17 13:21:49 COT 2024*/
+/* DO NOT EDIT */
+
+grant {
+  permission javax.security.jacc.WebResourcePermission "/";
+  permission javax.security.jacc.WebUserDataPermission "/";
+};
+
+grant      principal * * {
+  permission javax.security.jacc.WebRoleRefPermission "jsp", "**";
+  permission javax.security.jacc.WebRoleRefPermission "", "**";
+  permission javax.security.jacc.WebRoleRefPermission "holasi", "**";
+  permission javax.security.jacc.WebRoleRefPermission "default", "**";
+  permission javax.security.jacc.WebRoleRefPermission "ControladorIMG", "**";
+  permission javax.security.jacc.WebRoleRefPermission "Controlador", "**";
+};
+
